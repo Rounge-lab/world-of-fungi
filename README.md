@@ -3,4 +3,4 @@ This repository contains all scripts, documents and information related to the e
 The thesis is available at https://www.duo.uio.no/handle/10852/104186.
 
 
-Disclaimer: The evaluation of EukDetect (https://rdcu.be/dyb9m) and MetaPhlAn 4 was performed in February and January 2024, respectively, and thusly not included in the Master thesis. 
+Disclaimer: The evaluation of EukDetect (DOI: https://doi.org/10.1186/s40168-021-01015-y) and MetaPhlAn 4 (DOI: https://doi.org/10.1101/2022.08.22.504593) was performed in February and January 2024, respectively, and thusly not included in the Master thesis. 
