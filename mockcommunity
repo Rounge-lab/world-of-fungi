@@ -1,0 +1,8 @@
+##Download FASTA files for the genomes from https://www.ncbi.nlm.nih.gov/genome/
+
+## Use gunzip to decompress the file
+$ gzip file.fna.gz
+
+##Generate simulated dataset (HiSeq 2500 (125bp, 150bp), 150 bp, mean frag size 500, std.dev 50, #of reads 1 000 000, paired-end) 
+## [options] -ss <(HiSeq 2500 (125bp, 150bp), 150 bp, mean frag size 500, std.dev 50, #of reads 1 000 000, paired-end) 
+$ ./art_illumina -ss HS25 -i ./mock_fungal.fna -l 150 -p -m 500 -s 50 -c 1000000 -o mock_fungal_paired
