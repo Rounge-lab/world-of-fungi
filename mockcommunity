@@ -1,10 +1,12 @@
-##This is a step-by-step guide on how I created my mock community
+##This is a step-by-step guide on how I generated an Illumina (HiSeq 2500) simulated dataset from my mock community (read Wiki for description) using ART (10.1093/bioinformatics/btr708) version ART-MountRainier-2016-06-05. 
 
 ##Download FASTA files for the genomes from https://www.ncbi.nlm.nih.gov/genome/
 
 ## Use gunzip to decompress the file
 $ gzip file.fna.gz
 
-##Generate simulated dataset using ART with the specs (HiSeq 2500 (125bp, 150bp), 150 bp, paired-end, mean frag size 500, std.dev 50, #of reads 1 000 000, paired-end) 
-## [options] -ss <sequencing system> -i <seq_ref_file> -l <read_length> -p <paired> -m <mean_fragment_size> -s <std_dev> -c <num_reads_per_sequences> -o <output_file_prefix> 
+##Concatenate the FASTA files using the python script prepare_fasta.py
+
+##Generate simulated dataset using the concatenated FASTA file with the specs (HiSeq 2500 (125bp, 150bp), 150 bp, paired-end, mean frag size 500, std.dev 50, #of reads 1 000 000, paired-end) 
+## An explanation of the [options] : -ss <sequencing system> -i <seq_ref_file> -l <read_length> -p <paired> -m <mean_fragment_size> -s <std_dev> -c <num_reads_per_sequences> -o <output_file_prefix> 
 $ ./art_illumina -ss HS25 -i ./mock_fungal.fna -l 150 -p -m 500 -s 50 -c 1000000 -o mock_fungal_paired
