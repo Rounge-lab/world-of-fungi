@@ -1,4 +1,3 @@
-##eukdetect_script.sh
 #!/bin/bash
 
 #SBATCH --job-name eukdetect   ## Name of the job
