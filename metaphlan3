@@ -1,4 +1,4 @@
-##This is a description of mapping the simulated dataset generated from the mock community using MetaPhlAn 3
+##This is a description of how the raw reads from the simulated dataset were mapped using MetaPhlAn 3
 
 ##MetaPhlAn 3 (version 3.0.7) was loaded into the environment
 $ module load MetaPhlAn/3.0.7-foss-2020b
