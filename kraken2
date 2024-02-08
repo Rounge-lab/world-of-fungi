@@ -21,7 +21,7 @@ $ kraken2-build --build --db FungiDB --threads 24
 ##No custom k-mer length (k) or minimizer length (l) were specified. The default values of k and l are 35 and 31, respectively. 
 
 
-##A custom database was also curated to act as a positive control. This database contained the same fifty genomes as in the mock community. The database was curated in a similar manner as described above.
+##A custom database (FMC_DB) was also curated to act as a positive control. This database contained the same fifty genomes as in the mock community. The database was curated in a similar manner as described above.
 
 
 ##Mapping raw reads to the custom databases
