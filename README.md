@@ -1,0 +1,1 @@
+This repository contains all documents and information related to the evaluation of several bioinformatic tools performed by Arfa Irej Qureshi for her Masters thesis during the academic year 2022/2023. 
