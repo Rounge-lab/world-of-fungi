@@ -1,0 +1,8 @@
+##This is a description of mapping the simulated dataset generated from the mock community using MetaPhlAn 3
+
+##MetaPhlAn 3 (version 3.0.7) was loaded into the environment
+$ module load MetaPhlAn/3.0.7-foss-2020b
+
+##Mapping the raw reads (paired-end) of the simulated datasets
+$ metaphlan -input_type fastq ~/inputfile1.fq -o filename1.txt 
+$ metaphlan -input_type fastq ~/inputfile2.fq -o filename2.txt
