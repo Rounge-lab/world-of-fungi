@@ -13,7 +13,8 @@ import os
 import pandas as pd
 import numpy as np
 
-workdir='/cluster/projects/nn9383k/arfa/mockcommunity/MC_genomes'
+##Edit path to the directory where the genome FASTA files are stored
+workdir='path to directory with the genomes'
 folders=[x[0] for x in os.walk(workdir)]
 
 for f in folders[1::]:
@@ -29,13 +30,14 @@ for f in folders[1::]:
                            id=fi.replace('.fna',''), description=''))
         SeqIO.write(record,'/'.join([newdir,fi]),'fasta')
 
-##Concatenate all files into 'fungi.fna' using cat *.fna > fungi.fna
+##Concatenate all files into 'filename.fna' using cat *.fna > filename.fna
 ## in terminal
 
        
 ## Find lengths of each genome
-workdir='/cluster/projects/nn9383k/arfa/mockcommunity/MC_genomes'
-summary=pd.read_csv('/'.join([workdir, 'Fungal_MC_GCF.txt']), sep='\t')
+#Edit path to the directory where the genome FASTA files are stored
+workdir='path to directory with the genomes'
+summary=pd.read_csv('/'.join([workdir, 'filename.txt']), sep='\t')
 fdir='/'.join([workdir, 'concatenated/all'])
 files=os.listdir(fdir)
 for fi in files[1:]:
@@ -44,11 +46,12 @@ for fi in files[1:]:
         x='_'.join(fasta.name.split('_')[:2])
         summary.loc[summary['RefSeqID']==x,'Length, bp']=len(fasta)
 
-summary.to_csv('/'.join([workdir, 'Fungal_MC_GCF.txt']),index=False)
+summary.to_csv('/'.join([workdir, 'filename.txt']),index=False)
 
 
 ##Read the simulated dataset (check 100000 reads per sequence)
-workdir='/cluster/projects/nn9383k/arfa/mockcommunity/MC_genomes'
+#Edit path to the directory where the genome FASTA files are stored
+workdir='path to directory with the genomes'
 qfastq=SeqIO.parse('/'.join([workdir,'MC_100000_1.fq']),'fastq')
 fastq_sum=pd.DataFrame(columns=['ReadName','AvgQual'])
 for seq in qfastq:
@@ -67,4 +70,4 @@ summary=summary.merge(qual_per_genome, on='RefSeqID', how='left')
 summary=summary.drop(columns='AvgQual_x')
 summary=summary.rename(columns={'AvgQual_y':'AvgQual'})
 summary['NumReads']=100000
-summary.to_csv('/'.join([workdir, 'Fungal_MC_GCF.txt']),index=False, sep ='\t')
+summary.to_csv('/'.join([workdir, 'filename.txt']),index=False, sep ='\t')
