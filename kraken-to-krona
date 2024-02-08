@@ -1,0 +1,11 @@
+##A description of how the output from Kraken 2 was visualized using Krona. 
+
+##Download the python script called 'kreport2krona.py' from https://github.com/jenniferlu717/KrakenTools
+
+##Convert Kraken 2 report to a Krona compatible .txt file
+$ ./kreport2krona.py -r ~/filename.txt -o filename.txt
+
+##Import the output file into Krona
+$ ktImportText filename.txt -o filename.html
+
+##The resulting .html output file can be viewed in any web browser
