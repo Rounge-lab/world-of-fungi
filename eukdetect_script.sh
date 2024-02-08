@@ -1,15 +1,15 @@
 #!/bin/bash
 
-#SBATCH --job-name eukdetect   ## Name of the job
-#SBATCH --output eukdetect-run1   ## Name of the output-script (%j will be replaced with job number)
-#SBATCH --account nn9383k   ## The billed account
-#SBATCH --time=10:30:00   ## Walltime of the job
+#SBATCH --job-name   ## Name of the job
+#SBATCH --output   ## Name of the output-script (%j will be replaced with job number)
+#SBATCH --account    ## The billed account
+#SBATCH --time=00:00:00   ## Walltime of the job
 #SBATCH --partition=bigmem   ## Selected partition
-#SBATCH --mem-per-cpu=30000   ## Memory allocated to each task
-#SBATCH --ntasks=10   ## Number of tasks that will be allocated
-#SBATCH --nodes=1   ## Number of nodes that will be allocated
+#SBATCH --mem-per-cpu=   ## Memory allocated to each task
+#SBATCH --ntasks=   ## Number of tasks that will be allocated
+#SBATCH --nodes=   ## Number of nodes that will be allocated
 
 set -o errexit   ## Exit the script on any error
 set -o nounset   ## Treat any unset variables as an error
 
-eukdetect --mode runall --configfile /cluster/projects/nn9383k/arfa/eukdetect/EukDetect/eukdetect_configfile.yml --cores 32   ## Command to be run
+eukdetect --mode runall --configfile ./configfile.yml --cores    ## Command to be run
