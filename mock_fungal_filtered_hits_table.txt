@@ -1,0 +1,44 @@
+Name	Rank	Lineage	Taxid	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity
+Saccharomyces cerevisiae S288C	species	phylum-Ascomycota|class-Saccharomycetes|order-Saccharomycetales|family-Saccharomycetaceae|genus-Saccharomyces|species-Saccharomyces_cerevisiae	559292	182	36905	100.0%	97.75%	98.78%
+Kluyveromyces lactis	species	phylum-Ascomycota|class-Saccharomycetes|order-Saccharomycetales|family-Saccharomycetaceae|genus-Kluyveromyces|species-Kluyveromyces_lactis	28985	163	42334	100.0%	95.05%	97.87%
+[Candida] glabrata	species	phylum-Ascomycota|class-Saccharomycetes|order-Saccharomycetales|family-Saccharomycetaceae|genus-Nakaseomyces|species-[Candida]_glabrata	5478	160	36332	100.0%	96.53%	98.08%
+Ascoidea rubescens DSM 1968	species	phylum-Ascomycota|class-Saccharomycetes|order-Saccharomycetales|family-Ascoideaceae|genus-Ascoidea|species-Ascoidea_rubescens	1344418	162	25351	100.0%	92.12%	98.71%
+Candida orthopsilosis Co 90-125	species	phylum-Ascomycota|class-Saccharomycetes|order-Saccharomycetales|family-Debaryomycetaceae|genus-Candida|species-Candida_orthopsilosis	1136231	168	37607	100.0%	94.19%	98.14%
+Candida parapsilosis	species	phylum-Ascomycota|class-Saccharomycetes|order-Saccharomycetales|family-Debaryomycetaceae|genus-Candida|species-Candida_parapsilosis	5480	172	37117	100.0%	94.17%	98.18%
+Debaryomyces hansenii CBS767	species	phylum-Ascomycota|class-Saccharomycetes|order-Saccharomycetales|family-Debaryomycetaceae|genus-Debaryomyces|species-Debaryomyces_hansenii	284592	183	39719	100.0%	95.14%	98.48%
+Encephalitozoon cuniculi GB-M1	species	phylum-Microsporidia|family-Unikaryonidae|genus-Encephalitozoon|species-Encephalitozoon_cuniculi	284813	23	38881	100.0%	98.33%	91.37%
+Pichia kudriavzevii	species	phylum-Ascomycota|class-Saccharomycetes|order-Saccharomycetales|family-Pichiaceae|genus-Pichia|species-Pichia_kudriavzevii	4909	158	44002	100.0%	95.49%	97.83%
+Malassezia restricta	species	phylum-Basidiomycota|class-Malasseziomycetes|order-Malasseziales|family-Malasseziaceae|genus-Malassezia|species-Malassezia_restricta	76775	150	73200	100.0%	95.25%	96.83%
+Kuraishia capsulata CBS 1993	species	phylum-Ascomycota|class-Saccharomycetes|order-Saccharomycetales|genus-Kuraishia|species-Kuraishia_capsulata	1382522	172	47395	100.0%	95.08%	97.9%
+[Candida] auris	species	phylum-Ascomycota|class-Saccharomycetes|order-Saccharomycetales|family-Metschnikowiaceae|genus-Clavispora|species-[Candida]_auris	498019	168	45201	99.41%	94.85%	98.12%
+Brettanomyces bruxellensis	species	phylum-Ascomycota|class-Saccharomycetes|order-Saccharomycetales|family-Pichiaceae|genus-Brettanomyces|species-Brettanomyces_bruxellensis	5007	169	34870	99.41%	94.54%	97.6%
+Bipolaris sorokiniana ND90Pr	species	phylum-Ascomycota|class-Dothideomycetes|order-Pleosporales|family-Pleosporaceae|genus-Bipolaris|species-Bipolaris_sorokiniana	665912	204	10427	99.03%	86.71%	99.9%
+Acaromyces ingoldii	species	phylum-Basidiomycota|class-Exobasidiomycetes|order-Exobasidiales|family-Cryptobasidiaceae|genus-Acaromyces|species-Acaromyces_ingoldii	215250	176	26025	98.88%	90.92%	98.48%
+Ascochyta rabiei	species	phylum-Ascomycota|class-Dothideomycetes|order-Pleosporales|family-Didymellaceae|genus-Ascochyta|species-Ascochyta_rabiei	5454	198	9314	98.51%	86.44%	99.72%
+Fonsecaea nubica	species	phylum-Ascomycota|class-Eurotiomycetes|order-Chaetothyriales|family-Herpotrichiellaceae|genus-Fonsecaea|species-Fonsecaea_nubica	856822	195	9792	98.48%	83.89%	99.89%
+Pseudozyma hubeiensis SY62	species	phylum-Basidiomycota|class-Ustilaginomycetes|order-Ustilaginales|family-Ustilaginaceae|genus-Pseudozyma|species-Pseudozyma_hubeiensis	1305764	194	22615	98.48%	94.05%	99.77%
+Pneumocystis murina B123	species	phylum-Ascomycota|class-Pneumocystidomycetes|order-Pneumocystidales|family-Pneumocystidaceae|genus-Pneumocystis|species-Pneumocystis_murina	1069680	122	23867	98.39%	79.98%	97.5%
+Chaetomium globosum CBS 148.51	species	phylum-Ascomycota|class-Sordariomycetes|order-Sordariales|family-Chaetomiaceae|genus-Chaetomium|species-Chaetomium_globosum	306901	175	11530	98.31%	87.12%	99.37%
+Cladophialophora bantiana CBS 173.52	species	phylum-Ascomycota|class-Eurotiomycetes|order-Chaetothyriales|family-Herpotrichiellaceae|genus-Cladophialophora|species-Cladophialophora_bantiana	1442370	199	11449	98.03%	88.85%	99.87%
+Endocarpon pusillum Z07020	species	phylum-Ascomycota|class-Eurotiomycetes|order-Verrucariales|family-Verrucariaceae|genus-Endocarpon|species-Endocarpon_pusillum	1263415	191	14635	97.95%	89.88%	99.15%
+Botrytis porri	species	phylum-Ascomycota|class-Leotiomycetes|order-Helotiales|family-Sclerotiniaceae|genus-Botrytis|species-Botrytis_porri	87229	197	6063	97.52%	78.37%	99.91%
+Blastomyces	genus	phylum-Ascomycota|class-Eurotiomycetes|order-Onygenales|family-Ajellomycetaceae|genus-Blastomyces	229219	144	5485	97.3%	81.95%	99.87%
+Aspergillus lentulus	species	phylum-Ascomycota|class-Eurotiomycetes|order-Eurotiales|family-Aspergillaceae|genus-Aspergillus|species-Aspergillus_lentulus	293939	203	7742	97.13%	74.34%	99.91%
+Trichosporon asahii var. asahii CBS 2479	no rank	phylum-Basidiomycota|class-Tremellomycetes|order-Trichosporonales|family-Trichosporonaceae|genus-Trichosporon|species-Trichosporon_asahii	1186058	133	11968	97.08%	85.25%	99.16%
+Penicillium chrysogenum	species	phylum-Ascomycota|class-Eurotiomycetes|order-Eurotiales|family-Aspergillaceae|genus-Penicillium|species-Penicillium_chrysogenum	5076	197	8805	97.04%	81.09%	99.92%
+Beauveria bassiana ARSEF 2860	species	phylum-Ascomycota|class-Sordariomycetes|order-Hypocreales|family-Cordycipitaceae|genus-Beauveria|species-Beauveria_bassiana	655819	139	4029	96.53%	63.73%	99.91%
+Phialemoniopsis curvata	species	phylum-Ascomycota|class-Sordariomycetes|order-Xylariales|genus-Phialemoniopsis|species-Phialemoniopsis_curvata	1093900	194	13197	96.52%	89.78%	99.25%
+Verticillium alfalfae VaMs.102	species	phylum-Ascomycota|class-Sordariomycetes|order-Glomerellales|family-Plectosphaerellaceae|genus-Verticillium|species-Verticillium_alfalfae	526221	121	4069	93.8%	63.95%	99.84%
+Alternaria sect. Alternaria	section	phylum-Ascomycota|class-Dothideomycetes|order-Pleosporales|family-Pleosporaceae|genus-Alternaria	2499237	59	1633	92.19%	63.28%	99.34%
+Alternaria alternata complex	species group	phylum-Ascomycota|class-Dothideomycetes|order-Pleosporales|family-Pleosporaceae|genus-Alternaria	187734	70	1457	85.37%	47.68%	99.87%
+leotiomyceta	no rank	phylum-Ascomycota	716546	3	80	75.0%	81.64%	99.96%
+Blastomyces dermatitidis ER-3	species	phylum-Ascomycota|class-Eurotiomycetes|order-Onygenales|family-Ajellomycetaceae|genus-Blastomyces|species-Blastomyces_dermatitidis	559297	35	445	68.63%	23.91%	99.66%
+Alternaria alternata	species	phylum-Ascomycota|class-Dothideomycetes|order-Pleosporales|family-Pleosporaceae|genus-Alternaria|species-Alternaria_alternata	5599	39	604	58.21%	31.76%	99.43%
+Beauveria	genus	phylum-Ascomycota|class-Sordariomycetes|order-Hypocreales|family-Cordycipitaceae|genus-Beauveria	5581	57	1368	40.71%	58.57%	99.88%
+Verticillium	genus	phylum-Ascomycota|class-Sordariomycetes|order-Glomerellales|family-Plectosphaerellaceae|genus-Verticillium	1036719	35	828	22.01%	70.14%	99.84%
+Fonsecaea	genus	phylum-Ascomycota|class-Eurotiomycetes|order-Chaetothyriales|family-Herpotrichiellaceae|genus-Fonsecaea	40354	5	38	21.74%	24.02%	99.7%
+Penicillium flavigenum	species	phylum-Ascomycota|class-Eurotiomycetes|order-Eurotiales|family-Aspergillaceae|genus-Penicillium|species-Penicillium_flavigenum	254877	21	117	10.29%	10.15%	98.32%
+Aspergillus	genus	phylum-Ascomycota|class-Eurotiomycetes|order-Eurotiales|family-Aspergillaceae|genus-Aspergillus	5052	67	875	3.63%	34.63%	99.84%
+Botryotinia convoluta	species	phylum-Ascomycota|class-Leotiomycetes|order-Helotiales|family-Sclerotiniaceae|genus-Botryotinia|species-Botryotinia_convoluta	54673	4	6	1.96%	9.8%	97.53%
+Emergomyces orientalis	species	phylum-Ascomycota|class-Eurotiomycetes|order-Onygenales|family-Ajellomycetaceae|genus-Emergomyces|species-Emergomyces_orientalis	1972497	2	5	0.99%	13.58%	96.56%
+Penicillium	genus	phylum-Ascomycota|class-Eurotiomycetes|order-Eurotiales|family-Aspergillaceae|genus-Penicillium	5073	3	25	0.65%	62.17%	100.0%
