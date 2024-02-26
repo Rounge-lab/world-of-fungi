@@ -1,6 +1,6 @@
-##This is a description of how the raw reads from the simulated dataset were mapped using MetaPhlAn 3
+##This is a description of how the raw reads from the simulated dataset were mapped using MetaPhlAn3
 
-##MetaPhlAn 3 (version 3.0.7) was loaded into the environment
+##MetaPhlAn3 (version 3.0.7) was loaded into the environment
 $ module load MetaPhlAn/3.0.7-foss-2020b
 
 ##Mapping the raw reads (paired-end) of the simulated datasets
